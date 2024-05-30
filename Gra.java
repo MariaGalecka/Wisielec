@@ -35,7 +35,7 @@ public class Gra {
                 case 2:
                     edytujBazeSlow(scanner);
                     break;
-                case 3: // Dodaj ten case
+                case 3:
                     wyswietlStatystyki();
                     break;
                 case 4:
@@ -100,7 +100,7 @@ public class Gra {
                 }
 
                 // Sprawdź czy wygrana
-                if (String.valueOf(ukryteSlowo).indexOf('_') == -1) { // Poprawiony warunek
+                if (String.valueOf(ukryteSlowo).indexOf('_') == -1) {
                     wygrana = true;
                     break;
                 }
